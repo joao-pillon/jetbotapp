@@ -16,10 +16,12 @@ export const Container = styled.div`
   border-bottom-right-radius: 7px;
 
   table {
-    text-transform: upperCase;
+
     margin: 0px auto;
     width: 170vh;
     height: 50vh;
+
+    text-transform: upperCase;
     text-shadow: 0px 1px 1px rgba(88, 88, 88, 0.2);
     text-align: left;
     vertical-align: baseline;

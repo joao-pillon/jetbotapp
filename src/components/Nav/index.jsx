@@ -1,24 +1,16 @@
 import { Container } from "./style.js";
 
-
 const Nav = () => {
-
-
-
-
-
   return (
     <Container>
-
       <div className="sign-in">
         <button>Entrar</button>
         <button>Criar conta</button>
       </div>
-      
+
       <ul className="permalinks">
         <li>
           <a href="#home">Home</a>
-          
         </li>
         <li>
           <a href="#sobre">Sobre</a>

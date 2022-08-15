@@ -49,7 +49,7 @@ export const Container = styled.div`
   .options-container {
     background: var(--verde);
     padding: 15px;
-    text-align:center;
+    text-align: center;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
@@ -92,7 +92,6 @@ export const Container = styled.div`
     color: var(--branco-200);
   }
 
-  
   @media only screen and (max-width: 768px) {
     height: 330px;
 

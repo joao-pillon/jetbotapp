@@ -2,7 +2,6 @@ import { Container } from "./style.js";
 import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
 
-
 const Contact = () => {
   const handleSubmit = (e) => {};
   return (
@@ -27,9 +26,7 @@ const Contact = () => {
               name="message"
               required
             ></textarea>
-            <button type="submit" >
-              Enviar mensagem
-            </button>
+            <button type="submit">Enviar mensagem</button>
           </form>
         </div>
       </section>

@@ -141,12 +141,9 @@ const Simulação = () => {
     <>
       {" "}
       <section id="simulacao">
-        
         <Container>
-   
-   
-          <Explicação>       
-          <h4>
+          <Explicação>
+            <h4>
               Com o nosso aplicativo você pode ter controle do gado e realizar a
               gestão de sua fazenda sem complicação!
             </h4>

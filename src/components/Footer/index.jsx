@@ -21,7 +21,6 @@ const Footer = () => {
           <li>
             <a href="#sobre">SOBRE</a>
           </li>
-
         </ul>
 
         <div className="copyright">

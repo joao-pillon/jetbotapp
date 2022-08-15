@@ -46,7 +46,6 @@ export const Container = styled.div`
     background: -moz-linear-gradient(90deg, #c0c0c0 0%, #4f4f4f 10%);
 
     h2 {
-  
       color: var(--branco-100);
       line-height: 1.8;
       font-size: 18px;
@@ -57,9 +56,8 @@ export const Container = styled.div`
   }
 
   @media only screen and (max-width: 768px) {
-    height: 
-  480px;
-        .banner1 {
+    height: 480px;
+    .banner1 {
       padding: 20px auto;
 
       h1 {
@@ -82,13 +80,14 @@ export const Container = styled.div`
         height: 180px;
       }
     }
-    #sobre{
-    height:100px;
+    #sobre {
+      height: 100px;
 
-h2 {
-
-  font-size: 13px;
-  margin-left:25px;  margin-right:25px;
-}
-  }}
+      h2 {
+        font-size: 13px;
+        margin-left: 25px;
+        margin-right: 25px;
+      }
+    }
+  }
 `;

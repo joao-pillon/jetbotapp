@@ -16,9 +16,8 @@ const About = () => {
 
       <section id="sobre">
         <div>
-<h2> Difícil controlar o ganho de peso do seu rebanho?</h2><h2>
-Com a{" "}
-          JetBov isso fica fácil.</h2>
+          <h2> Difícil controlar o ganho de peso do seu rebanho?</h2>
+          <h2>Com a JetBov isso fica fácil.</h2>
         </div>
       </section>
     </Container>

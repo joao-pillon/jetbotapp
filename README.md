@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Desafio de desenvolvimento Front End JetBot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Objetivo
+-
+O objetivo desse desafio é demonstrar seu conhecimento e seu raciocínio na resolução
+de um problema relacionado à lógica de programação, assim saberemos como você pensa e
+como resolve problemas na vida real.
 
-## Available Scripts
+#O Problema
+-
+Os pecuaristas gostam de fazer projeções sobre muitas informações do seu rebanho.
+Então, você criará um meio do pecuarista fazer uma projeção do processo que se chama
+Pastejo Rotacionado, que basicamente é: permitir movimentar o gado entre áreas diferentes da
+fazenda que geram ganho de peso diferenciados aos animais.
 
-In the project directory, you can run:
+#Como é
+-
+As fazendas geralmente contam com várias áreas para dividir seu rebanho e a principal
+métrica que se trabalha nos animais de gado de corte é o peso total dele e o GMD (ganho
+médio diário). E para que todo o gado possa pastar sempre um pasto novinho, é necessário dar
+um tempo para o pasto das áreas crescer novamente, sem que os animais estejam na área
+comendo ou pisoteando.
 
-### `yarn start`
+Para isso, o pecuarista fica rotacionando um conjunto de animais em algumas áreas
+definidas, ou seja, trocando os animais de área, por tempos planejados. Essas áreas são como
+pequenos "recortes" da fazenda dele, criados por cercas mesmo, no pasto. É importantesalientar que cada área tem uma quantidade máxima de animais que pode alojar, pois senão o
+capim será comido demasiadamente rápido, fazendo com que se perca a cadência definida, e
+assim o animal não aproveita o máximo daquela área.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ao passar por aquela área, o animal (nesta simulação), com certeza ganhará aquela
+quantidade diária de peso definida. Além disso, é necessário garantir que uma área não receba
+mais animais do que é permitido. Para que seja possível executar a simulação, será necessário
+definir o cenário inicial das áreas com suas configurações de número máximo de animais
+permitido e ganho diário de peso (GMD) e dos animais da fazenda. Ao movimentar os animais
+para uma área ou outra, é necessário informar quantos dias o animal ficará lá.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#Exemplo:
+-
+Com este plano, o animal 'A1' fechou com um peso total de 165,2Kg.
+E assim, pode-se fazer com vários animais e várias áreas.
 
-### `yarn test`
+#Objetivo Final
+-
+Escreva um programa que permita aos pecuaristas fazer a simulação de rotação dos animais
+nas áreas da sua fazenda.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#Requisitos
+-
+O programa deve permitir configurar o cenário inicial dos animais e áreas Não é
+necessário ter interface gráfica ou web, porém não é "proibido";
+- O formato de entrada e saída dos dados fica a seu critério;
+- A saída do programa deve permitir:
+-
+Mostrar o resultado de peso final de todos os animais-
+Mostrar o resultado de peso final dos brincos que foram especificados
+- O desafio pode ser entregue escrito em qualquer linguagem de programação;
+- Não deverá ser utilizada quaisquer bibliotecas de terceiros;
+- Você pode tirar dúvidas com os avaliadores, sem problema, mas a interpretação da
+solução também será avaliada, o que não invalida possíveis problemas de definição da
+nossa parte.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

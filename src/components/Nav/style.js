@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-
   align-content: center;
   text-align: center;
   width: 100%;
@@ -25,25 +24,23 @@ export const Container = styled.div`
       border-radius: 5px;
     }
 
-
     button:hover {
-        cursor:pointer;
-        background-color:var(--cinza-100);
-        color:var(--cinza-900);
-  }
+      cursor: pointer;
+      background-color: var(--cinza-100);
+      color: var(--cinza-900);
+    }
   }
   .permalinks {
     position: absolute;
     display: flex;
-    top:4%;
+    top: 4%;
     margin-left: 20px;
 
-    a{
-    font-size:16px;
-    margin: 15px;
-    color: #f1f1f1;
-
-}
+    a {
+      font-size: 16px;
+      margin: 15px;
+      color: #f1f1f1;
+    }
 
     a:link {
       text-decoration: none;
@@ -55,7 +52,6 @@ export const Container = styled.div`
 
     a:hover {
       text-decoration: none;
-  
     }
 
     a:active {
@@ -65,25 +61,24 @@ export const Container = styled.div`
 
   @media only screen and (max-width: 768px) {
     a {
-      display: none ;
+      display: none;
     }
     .sign-in {
-    display:flex;
-    flex-wrap: wrap;
-    width: 150px ;
-    position: absolute;
-    top: 4%;
-    right: 0%;
+      display: flex;
+      flex-wrap: wrap;
+      width: 150px;
+      position: absolute;
+      top: 4%;
+      right: 0%;
 
-    button {
-      height: 20px;
-      width: 100px;
-      margin-bottom: 12px;
+      button {
+        height: 20px;
+        width: 100px;
+        margin-bottom: 12px;
 
-      font-size: 12px;
-      text-transform: uppercase;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
     }
   }
-  }
-  
 `;

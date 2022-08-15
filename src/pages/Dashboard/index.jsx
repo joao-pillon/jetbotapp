@@ -5,7 +5,7 @@ import Simulação from "../../components/Simulação";
 import Contact from "../../components/Contact";
 import About from "../../components/About";
 import Table from "../../components/Table";
-import Marketing from "../../components/Marketing"
+import Marketing from "../../components/Marketing";
 
 const Dashboard = () => {
   return (
@@ -13,11 +13,10 @@ const Dashboard = () => {
       <Header />
       <About />
       <Simulação />
-      <Table/>
-      <Marketing/>
+      <Table />
+      <Marketing />
       <Contact />
       <Footer />
-      
     </Container>
   );
 };

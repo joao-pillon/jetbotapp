@@ -146,10 +146,10 @@ export const Explicação = styled.div`
       font-size: 13px;
       margin-top: 15px;
     }
-    h4{
+    h4 {
       text-align: left;
       margin: 0px;
-      font-size:14px;
+      font-size: 14px;
     }
 
     h5 {
