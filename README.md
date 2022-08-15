@@ -1,18 +1,20 @@
 # Desafio de desenvolvimento Front End JetBot
 
 #Objetivo
-
+-
 O objetivo desse desafio é demonstrar seu conhecimento e seu raciocínio na resolução
 de um problema relacionado à lógica de programação, assim saberemos como você pensa e
 como resolve problemas na vida real.
 
 #O Problema
+-
 Os pecuaristas gostam de fazer projeções sobre muitas informações do seu rebanho.
 Então, você criará um meio do pecuarista fazer uma projeção do processo que se chama
 Pastejo Rotacionado, que basicamente é: permitir movimentar o gado entre áreas diferentes da
 fazenda que geram ganho de peso diferenciados aos animais.
 
 #Como é
+-
 As fazendas geralmente contam com várias áreas para dividir seu rebanho e a principal
 métrica que se trabalha nos animais de gado de corte é o peso total dele e o GMD (ganho
 médio diário). E para que todo o gado possa pastar sempre um pasto novinho, é necessário dar
@@ -33,10 +35,12 @@ permitido e ganho diário de peso (GMD) e dos animais da fazenda. Ao movimentar 
 para uma área ou outra, é necessário informar quantos dias o animal ficará lá.
 
 #Exemplo:
+-
 Com este plano, o animal 'A1' fechou com um peso total de 165,2Kg.
 E assim, pode-se fazer com vários animais e várias áreas.
 
 #Objetivo Final
+-
 Escreva um programa que permita aos pecuaristas fazer a simulação de rotação dos animais
 nas áreas da sua fazenda.
 
