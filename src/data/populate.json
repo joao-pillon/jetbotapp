@@ -1,0 +1,6 @@
+[
+{"name":"A1","capacity": 10, "gmd":1.0, "days":7, "gains":"7 kg"  },
+{"name":"A2","capacity": 8, "gmd":0.8 , "days":5, "gains":"4 kg"  },
+{"name":"A3","capacity": 8 , "gmd":1.2, "days":5, "gains":"6 kg"   },
+{"name":"A4","capacity": 12, "gmd":1.2 , "days":8, "gains":"9.6 kg"  }
+]

@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Poppins:ital,wght@0,400;0,600;1,300&display=swap");
+
+:root {
+  --branco-100: #f1f1f1;
+  --branco-200: #f6f6f6;
+
+  --cinza-100: #ebe9e9bd;
+  --cinza-200: #dcdcdc;
+  --cinza-300: #d3d3d3;
+  --cinza-400: #c0c0c0;
+  --cinza-500: #a9a9a9;
+  --cinza-600: #808080;
+  --cinza-700: #696969;
+  --cinza-800: #4f4f4f;
+  --cinza-900: #363636;
+  --cinza-1000: #1c1c1c;
+
+  --preto: #000;
+
+  --verde: #32aa64;
+  --verde-100: #73bc6a;
+  --verde-200: #499f3a;
+  --verde-300: #007204;
+  --verde-400: #006400;
+  --verde-500: #0FB9A0;
+
+  --transition: all 400ms ease;
+  
+}
+
+html,
+body,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  color: var(--cinza-1000);
+  font-width: 600px;
+  line-height: 1.5;
+
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
