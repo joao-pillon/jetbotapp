@@ -1,6 +1,6 @@
 import { Container } from "./style.js";
-import banner from "../../assets/images/cabeçalho.png";
-import banner2 from "../../assets/images/banner.jpeg";
+import banner from "../../assets/images/banner.png";
+import banner2 from "../../assets/images/banner2.jpeg";
 const About = () => {
   return (
     <Container>

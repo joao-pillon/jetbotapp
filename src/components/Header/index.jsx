@@ -1,5 +1,5 @@
 import { Container } from "./style.js";
-import logo from "../../assets/logoverde.png";
+import logo from "../../assets/images/logo.png";
 import Nav from "../Nav/index.jsx";
 
 const Header = () => {

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 625px;
+  height: 725px;
   text-align: center;
   box-shadow: 0px 0px 15px 5px rgba(158, 158, 158, 0.75);
   -webkit-box-shadow: 0px 0px 15px 5px rgba(158, 158, 158, 0.75);
@@ -26,10 +26,10 @@ export const Container = styled.div`
   }
 
   .banner2 {
-    height: 300px;
-
+    height: 400px;
+    
     img {
-      height: 300px;
+      height: 400px;
       width: 100%;
       box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.15);
       -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.15);

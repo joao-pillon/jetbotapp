@@ -16,7 +16,6 @@ export const Container = styled.div`
   border-bottom-right-radius: 7px;
 
   table {
-
     margin: 0px auto;
     width: 170vh;
     height: 50vh;
@@ -52,9 +51,11 @@ export const Container = styled.div`
     font-size: 15px;
     text-align: center;
   }
+
+
   @media only screen and (max-width: 1024px) {
     margin: 20px auto;
-    width: 100%;
+    width: 95%;
     table {
       width: 80%;
     }
@@ -89,6 +90,6 @@ export const TableContainer = styled.div`
   -moz-box-shadow: 0px 0px 5px 0px rgba(169, 169, 169, 0.4);
 
   @media only screen and (max-width: 1024px) {
-    width: 100%;
+    width: 95%;
   }
 `;
